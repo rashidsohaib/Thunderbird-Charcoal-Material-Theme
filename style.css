@@ -1,0 +1,371 @@
+/* Rashid Charcoal Material Theme */
+/* Based on Rashid Design 2 — remapped to Material Design Charcoal Grey palette */
+
+/* ─── Charcoal Material Palette ────────────────────────────────────────────
+   #121212  Surface / deepest background
+   #1E1E1E  Background level 1
+   #212121  Background level 2 (spaces toolbar)
+   #263238  Blue-Grey 900 (headers, tree)
+   #2E2E2E  Elevated surface / cards
+   #37474F  Blue-Grey 800 (sidebar active, splitters, hover)
+   #455A64  Blue-Grey 700 (secondary interactive)
+   #546E7A  Blue-Grey 600 (accent / borders)
+   #607D8B  Blue-Grey 500 (primary accent)
+   #78909C  Blue-Grey 400 (icons, links)
+   #90A4AE  Blue-Grey 300 (body text, folder names)
+   #B0BEC5  Blue-Grey 200 (secondary text)
+   #CFD8DC  Blue-Grey 100 (sidebar icons)
+   #ECEFF1  Blue-Grey 50  (primary text / headings)
+   ─────────────────────────────────────────────────────────────────────── */
+
+/* Global UI font */
+* {
+	font-size: 11pt !important;
+	font-family: Oxygen !important;
+}
+
+#spacesToolbar {
+	background-color: #212121 !important;
+	background-image: none !important;
+	border: -1px !important;
+}
+
+#tabs-toolbar {
+	background-color: #fff0 !important;
+	background-image: none !important;
+	box-shadow: none !important;
+}
+
+#tabs-toolbar .tabmail-tab {
+	max-width: 100px !important;
+	border-radius: 20px 20px !important;
+}
+
+/* ─── Folder Pane Buttons ──────────────────────────────────────────────── */
+
+#folderPaneGetMessages {
+	background-image: url("Icons/refresh-12.png") !important;
+	background-size: 25px 25px !important;
+	background-position: center !important;
+	margin-left: 10pt !important;
+	width: 35px !important;
+	height: 30px !important;
+	filter: brightness(0.75) !important;
+}
+
+#folderPaneGetMessages img {
+	display: none !important;
+}
+
+#folderPaneGetMessages:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) !important;
+}
+
+#folderPaneWriteMessage {
+	background-image: url("Icons/write-11.png") !important;
+	background-size: 25px 25px !important;
+	background-color: transparent !important;
+	color: transparent !important;
+	font-size: 0px !important;
+	font-weight: bold !important;
+	width: 30px !important;
+	height: 30px !important;
+	border: 0px solid transparent !important;
+	filter: brightness(0.75) !important;
+}
+
+#folderPaneWriteMessage:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) !important;
+}
+
+/* ─── Spaces Sidebar Buttons ───────────────────────────────────────────── */
+
+#mailButton {
+	background-image: url("Icons/email-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-top: 20pt !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#mailButton img { display: none !important; }
+#mailButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+#calendarButton {
+	background-image: url("Icons/calendar-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#calendarButton img { display: none !important; }
+#calendarButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+#tasksButton {
+	background-image: url("Icons/task-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#tasksButton img { display: none !important; }
+#tasksButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+#addressBookButton {
+	background-image: url("Icons/contact-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#addressBookButton img { display: none !important; }
+#addressBookButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+#chatButton {
+	background-image: url("Icons/chat-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#chatButton img { display: none !important; }
+#chatButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+#settingsButton {
+	background-image: url("Icons/settings-11.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: 2pt !important;
+	background-size: 20px 20px !important;
+	background-position: center !important;
+	width: 33px !important;
+	height: 33px !important;
+	filter: brightness(0.65) saturate(0) !important;
+	border-radius: 20px 20px !important;
+}
+#settingsButton img { display: none !important; }
+#settingsButton:hover {
+	background-color: #37474F !important;
+	filter: brightness(1) saturate(0) !important;
+}
+
+/* ─── Search field outline ─────────────────────────────────────────────── */
+#unifiedToolbarContent .search-bar {
+	--search-focus-outline-color: var(--my-outline-color) !important;
+}
+
+/* ─── Splitters ────────────────────────────────────────────────────────── */
+#folderPaneSplitter,
+#booksSplitter {
+	border-color: var(--my-splitter-color-1);
+}
+
+#calsidebar_splitter,
+#listSplitter {
+	border-inline-start: 1px solid var(--my-splitter-color-1) !important;
+}
+
+/* ─── Message list header ──────────────────────────────────────────────── */
+#threadPaneHeaderBar.list-header-bar:not([hidden]) {
+	background-color: var(--my-header-bg);
+}
+
+/* ─── Message list alternating rows ───────────────────────────────────── */
+#threadTree tbody tr[is="thread-row"]:nth-child(even):not(:focus, :focus-within, :hover, .selected) {
+	background-color: var(--tree-card-background);
+}
+
+/* ─── Message pane ─────────────────────────────────────────────────────── */
+.header-buttons-container #header-view-toolbar {
+	color: var(--my-icons-color);
+}
+
+.header-row {
+	color: var(--my-subject-text);
+}
+
+.header-recipient:hover,
+.header-newsgroup:hover {
+	color: var(--my-recipient-hover-fg) !important;
+	background-color: var(--my-recipient-hover-bg) !important;
+}
+
+#messagePane {
+	background-color: var(--my-messagepane-bg) !important;
+	background-image: var(--my-messagepane-img);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#messagepanebox #messagepane {
+	padding: var(--my-message-padd);
+	background-color: var(--my-message-bg);
+}
+
+#messagepanebox #attachmentBar {
+	background-color: var(--my-attachment-bg);
+}
+
+/* ─── Calendar sidebar mini-month ─────────────────────────────────────── */
+#calMinimonth .minimonth-month-box .minimonth-nav-section {
+	background-color: var(--my-minimonth-bg) !important;
+}
+
+#calendarListHeader.calendar-list-header {
+	margin: var(--my-calList-header-marg);
+}
+
+#calendar-list-pane #calendarListHeader:hover {
+	background-color: var(--my-minimonth-bg) !important;
+}
+
+/* ─── Calendar view ────────────────────────────────────────────────────── */
+#calendarViewHeader {
+	background-color: var(--my-calendar-header-bg);
+}
+
+#calendar-view-box #view-box [selected="true"].calendar-color-box {
+	color: var(--my-event-selected-text) !important;
+	background-color: var(--my-event-selected) !important;
+}
+
+#view-box #month-view,
+#view-box #multiweek-view {
+	padding: var(--my-calendar-padd) !important;
+}
+
+/* ─── Agenda & task panel ──────────────────────────────────────────────── */
+#agenda-panel #agenda-container #agenda,
+:root[lwt-tree] tree#unifinder-todo-tree.calendar-task-tree {
+	background-color: var(--my-agenda-bg) !important;
+}
+
+#calendar-task-box #calendar-task-tree {
+	background-color: var(--my-calendar-task-bg);
+}
+
+#calendarDisplayBox #calendar-task-box #calendar-task-tree {
+	padding: var(--my-calendar-task-padd);
+}
+
+/* ─── Unified toolbar buttons ──────────────────────────────────────────── */
+.unified-toolbar-button {
+	color: #CFD8DC !important;
+	font-weight: normal !important;
+	background-color: #37474F !important;
+	border-radius: 25px 25px !important;
+}
+
+.unified-toolbar-button:hover {
+	color: #ECEFF1 !important;
+	font-weight: normal !important;
+	background-color: #546E7A !important;
+}
+
+/* ─── Message reading/compose pane padding ─────────────────────────────── */
+#messagepane {
+	margin-left: 40pt !important;
+	margin-right: 40pt !important;
+}
+
+.message-header-container {
+	margin-left: 40pt !important;
+	margin-right: 40pt !important;
+}
+
+/* ─── Message header row order ─────────────────────────────────────────── */
+#expandedfromRow    { order: 1 }
+#expandedtoRow      { order: 2 }
+#expandedreply-toRow { order: 3 }
+#expandedtagsRow    { display: none }
+
+/* ─── Compose pane padding ─────────────────────────────────────────────── */
+#messageEditor {
+	margin-left: 40pt !important;
+	margin-right: 40pt !important;
+}
+
+/* ─── Tab label text ───────────────────────────────────────────────────── */
+.tab-label {
+	color: #90A4AE !important;
+	font-weight: normal !important;
+}
+.tab-label[selected=true] {
+	color: #ECEFF1 !important;
+	font-weight: bold !important;
+}
+
+/* ─── Titlebar ─────────────────────────────────────────────────────────── */
+.titlebar-color {
+	color: AccentColorText;
+	background-color: AccentColor;
+}
+
+/* ─── Tab shape & color ────────────────────────────────────────────────── */
+.tab-background {
+	border-radius: 25px 25px !important;
+	margin-bottom: 5px !important;
+	margin-top: 2px !important;
+	background-color: #37474F;
+}
+
+.tabmail-tab[selected="true"] .tab-background {
+	background-color: #546E7A !important;
+	background-image: none !important;
+}
+
+/* ─── Menu compact density ─────────────────────────────────────────────── */
+menupopup > menu, menupopup > menuitem {
+	padding-block: 2px !important;
+	min-height: 0px !important;
+}
+root {
+	--arrowpanel-menuitem-padding: 2px !important;
+}
+
+/* ─── Hide active tab top line ─────────────────────────────────────────── */
+.tab-line { opacity: 0 !important; }
+.tab-line { background-color: transparent !important; }
+
+/* ─── Unified toolbar container ────────────────────────────────────────── */
+#unifiedToolbarContainer {
+	height: 40px !important;
+	background-color: #2E2E2E !important;
+}
