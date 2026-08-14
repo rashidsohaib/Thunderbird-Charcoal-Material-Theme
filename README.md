@@ -2,7 +2,7 @@
 
 A dark, Material Design–inspired theme for Thunderbird in charcoal grey tones with a subtle blue-grey (Blue Grey 500/600) accent palette.
 
-![Theme](bird_PO.png)
+![Theme](Screenshot.png)
 
 ## Features
 
